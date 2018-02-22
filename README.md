@@ -1,2 +1,2 @@
 # Domain-Adaptation-With-SNES
-A Domain Adaptation approach that uses SNES to optimise a Feature Extractor. The Model is tested on MNIST and office-31 dataset.
+A Domain Adaptation approach, that uses an Evalutionary algorithm to train a Convalutional neural network to extract features that are transferable from source to target domain. 
