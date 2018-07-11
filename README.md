@@ -1,5 +1,5 @@
 # Domain-Adaptation-With-SNES
-A Domain Adaptation approach, that uses an Evalutionary algorithm to train a Convalutional neural network to extract features that are transferable from source to target domain. 
+A Domain Adaptation approach, that uses an Evolutionary algorithm to train a Convalutional neural network to extract features that are transferable from source to target domain. 
 
 This work was inspired by [Unsupervised domain adaptation by backpropagation](http://jmlr.org/papers/volume17/15-239/15-239.pdf).An evalutionary learning strategy is used as an alternative to the backpropagation and  transfer gradient reversal   used in the original work. domain_adaptation.py contains a python implementation of the appraoch, mnist_adaptation.py contains an expriments with MNIST data used as source domain and artificial dataset MNISTM created from MNIST is used as target data. office-31 adaptation contains an expriment  on the office dataset with the amazon dataset used as source data and the dslr dataset used as target.
 
